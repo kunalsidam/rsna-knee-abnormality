@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Model outputs and competition data (never commit these)
+outputs/
+checkpoints/
+*.pth
+*.pt
+submission*.csv
+heuristic_train_labels.csv
+data/
+*.dcm
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

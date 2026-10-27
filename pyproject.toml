@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rsna-knee"
+version = "0.1.0"
+description = "Baseline multi-plane MRI pipeline for RSNA Knee Abnormality Detection"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "torch>=2.0",
+    "torchvision>=0.15",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "pydicom",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
